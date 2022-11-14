@@ -1,0 +1,53 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Recipe Book
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Recipe Book</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div>
+    <ion-card  routerLink = "/recipe/1">
+      <img alt="adobo" src="assets/img/adobo.jpg" />
+      <ion-card-header>
+        <ion-card-title>Adobo</ion-card-title>
+        <ion-card-subtitle>Filipino Food</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+       Its main ingridients are Chicken, eggs with soy sauce and vinegar.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card routerLink = "/recipe/2">
+      <img alt="sinigang" src="assets/img/sinigang.jpg" />
+      <ion-card-header>
+        <ion-card-title>Sinigang</ion-card-title>
+        <ion-card-subtitle>Filipino Food</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+       Its main ingridients are sampalok for sabaw.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card routerLink = "/recipe/3">
+      <img alt="pinakbet" src="assets/img/pinakbet.jpg" />
+      <ion-card-header>
+        <ion-card-title>Pinakbet</ion-card-title>
+        <ion-card-subtitle>Filipino Food</ion-card-subtitle>
+      </ion-card-header>
+    
+      <ion-card-content>
+       It's main ingridients are gulay.
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
